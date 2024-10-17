@@ -1,0 +1,28 @@
+p:first-letter {        /* prima lettera */
+	float: left;
+	color: darkred;
+	border: 3px ridge darkgoldenrod;
+	padding: 16px;
+	background-color: gold;
+	margin: 8px;
+}
+
+
+blockquote::after::before {
+
+	background-color: rgba(0, 0, 0, .12);  
+	padding: 8px;
+    content:"''";
+}
+
+
+a:hover {              /* mouse sopra il link o oggetto */
+	color: darkred; 
+	text-decoration: none;
+	background-color: red;
+}
+
+a:visited {            /* visited link */
+	color: #00FF00; 
+  }
+  
